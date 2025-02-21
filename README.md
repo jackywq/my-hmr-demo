@@ -5,3 +5,10 @@
 1. 基于node搭建后端服务器
 2. 基于websocket将服务器和客户端建立起全双工通信，实现数据传输
 3. 当修改文件时，通过websocket实时监听文件内容的改变，将最新的内容信息push到页面的DOM节点上，从而不用手动刷新浏览器而达到实现页面实时更新的效果
+
+# 启动命令
+```bash
+npm install
+
+node server/server.js
+```
